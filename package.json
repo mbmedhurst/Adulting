@@ -1,24 +1,28 @@
 {
-  "name": "project3",
+  "name": "adulting",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "11.14.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "build": "react-scripts build",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hmmjproject3/Project3.git"
+    "url": "https://github.com/mbmedhurst/Adulting"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hmmjproject3/Project3/issues"
+    "url": "https://github.com/mbmedhurst/Adulting/issues"
   },
-  "homepage": "https://github.com/hmmjproject3/Project3#readme",
+  "homepage": "https://github.com/mbmedhurst/Adulting#readme",
   "dependencies": {
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
@@ -31,7 +35,8 @@
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^5.0.1",
     "randomcolor": "^0.5.4",
-    "react-router-dom": "^5.0.1"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.0.1"
   },
   "devDependencies": {},
   "heroku-run-build-script": true
