@@ -9,7 +9,7 @@ const { User } = require('./models')
 const { secret } = require('./secret.js')
 const app = express()
 
-let MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/adulting_db'
+let MONGODB_URI = process.env.MONGODB_URI || 'mongodb://mbmedhurst:marianna1018@ds159217.mlab.com:59217/heroku_qpdks7cc'
 
 app.use(express.static(join(__dirname, 'client', 'build')))
 app.use(express.urlencoded({ extended: true }))
@@ -42,3 +42,5 @@ require('mongoose').connect(MONGODB_URI, { useNewUrlParser: true, useFindAndModi
   .catch(e => console.log(e))
 
 // mongodb://hizzy:bootcamp2019@ds355357.mlab.com:55357/heroku_nzxvm7k8
+
+// mongodb://mbmedhurst:marianna1018@ds159217.mlab.com:59217/heroku_qpdks7cc
