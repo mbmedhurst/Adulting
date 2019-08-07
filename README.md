@@ -1,5 +1,5 @@
 # #Adulting 
-#### (https://adultingapp.herokuapp.com)
+#### https://adultingapp.herokuapp.com
 ### An app to help families manage household chores 
 * Create chores and assign to family members, edit, mark as complete, delete if required
 * Dashboard compares and displays progress for all family members
