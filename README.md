@@ -13,3 +13,6 @@
 * Chart.js
 * Random Color (npm)
 
+### To Install
+* clone git repository
+* install dependencies by running _npm install_ in both the global and client direcotories
