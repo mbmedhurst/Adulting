@@ -29,4 +29,10 @@
 ### Screenshots
 
 #### Dashboard
-![dashboard image](/images/dashboard.jpg)
+![dashboard image](client/public/images/dashboard.jpg)
+
+#### Assign Chores Page
+![assign ahores Page](client/public/images/assignChores.jpg)
+
+#### Personal Chores Page
+![personal chores image](client/public/images/personalPage.jpg)
