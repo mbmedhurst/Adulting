@@ -28,11 +28,14 @@
 
 ### Screenshots
 
+#### Sign Up / Sign In
+![sign-in page](client/public/images/signIn.jpg)
+
 #### Dashboard
-![dashboard image](client/public/images/dashboard.jpg)
+![dashboard page](client/public/images/dashboard.jpg)
 
 #### Assign Chores Page
-![assign ahores Page](client/public/images/assignChores.jpg)
+![assign chores page](client/public/images/assignChores.jpg)
 
 #### Personal Chores Page
-![personal chores image](client/public/images/personalPage.jpg)
+![personal chores page](client/public/images/personalPage.jpg)
