@@ -26,3 +26,5 @@
 
 ### Screenshots
 
+#### Dashboard
+![dashboard image](src/assets/images/dashboard.jpg)
